@@ -9,12 +9,8 @@
     border-radius: 0px !important;
 }
 
-.main-coverSlotCollapsed-navAltContainer {
-    border-radius: 0px;
-}
-
+/* A */
 .main-coverSlotExpanded-container {
-    border-radius: 0px;
     width: 419px;
 	-webkit-box-shadow: none;
 }
@@ -146,7 +142,7 @@
 }
 
 /* Animated Equalizer in Connect a device button */
-.uWvwXlS0Da1bWsRX6KOw {
+.main-devicePicker-nowPlayingActiveIcon {
     filter: var(--filter);
 }
 
@@ -165,6 +161,11 @@ input:checked~.x-toggle-indicatorWrapper {
     filter: var(--filter);
 }
 
+/* Lyrics Background Color */
+.lyrics-lyrics-background {
+	background-color: #1a1a1a;
+}
+
 /* Lyrics if synced */
 .lyrics-lyricsContent-lyric.lyrics-lyricsContent-active {
     color: var(--your-color);
@@ -174,6 +175,20 @@ input:checked~.x-toggle-indicatorWrapper {
 .lyrics-lyricsContent-lyric.lyrics-lyricsContent-unsynced {
     color: var(--your-color);
 }
+
+/* Lyrics if passed */
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight {
+    color: var(--your-color);
+}
+
+/* Lyrics if unpassed */
+.lyrics-lyricsContent-lyric {
+	color: #5d5d5d;
+}
+
+/* Lyrics if cursor hover */
+.lyrics-lyricsContent-lyric.lyrics-lyricsContent-isInteractive:hover {
+	color: #B8B8B8;
 
 /* Sort Playlist */
 .main-contextMenu-menuItemButton[role=menuitemradio][aria-checked=true] {
